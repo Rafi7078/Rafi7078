@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-label="Salman Jahan Rafi — Quality Engineering, Applied AI, Data Analytics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071020"/><stop offset="0.62" stop-color="#0D2036"/><stop offset="1" stop-color="#081324"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".52" stop-color="#3B82F6"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#22D3EE" stop-opacity=".17"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.25" fill="#5D80A8" opacity=".26"/></pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1440" height="420" rx="25" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1438" height="418" rx="24" fill="none" stroke="#27445E" opacity=".65"/>
+  <rect width="1440" height="420" rx="25" fill="url(#dots)" opacity=".6"/>
+  <circle cx="1188" cy="185" r="265" fill="url(#glow)"/>
+  <rect x="66" y="60" width="57" height="57" rx="16" fill="#0B3041" stroke="#22D3EE" stroke-opacity=".58"/>
+  <text x="94" y="97" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" fill="#67E8F9">SR</text>
+  <text x="143" y="93" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" letter-spacing="4" font-weight="600" fill="#B0C6D9">BUILD • TEST • IMPROVE</text>
+  <rect x="66" y="148" width="62" height="5" rx="2.5" fill="#22D3EE"/>
+  <text x="62" y="231" font-family="DejaVu Sans, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="#F8FAFC">SALMAN JAHAN RAFI</text>
+  <text x="66" y="283" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="500" fill="#7ED9ED">QA Automation   /   Applied AI   /   Data Analytics</text>
+  <text x="67" y="337" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#AFC2D3">Building intelligent systems and reliable software.</text>
+  <g transform="translate(1030 62)">
+    <rect x="0" y="0" width="335" height="287" rx="24" fill="#0B2136" stroke="#3B82F6" stroke-opacity=".44"/>
+    <rect x="24" y="24" width="287" height="35" rx="10" fill="#143049"/>
+    <circle cx="43" cy="41" r="5" fill="#FB7185"/><circle cx="61" cy="41" r="5" fill="#FBBF24"/><circle cx="79" cy="41" r="5" fill="#34D399"/>
+    <path d="M42 107 L75 133 L42 159 M136 107 L103 133 L136 159" fill="none" stroke="#22D3EE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M193 113 L218 101 L245 130 L278 88" fill="none" stroke="#A78BFA" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="193" cy="113" r="7" fill="#A78BFA"/><circle cx="218" cy="101" r="7" fill="#A78BFA"/><circle cx="245" cy="130" r="7" fill="#A78BFA"/><circle cx="278" cy="88" r="7" fill="#A78BFA"/>
+    <rect x="42" y="200" width="158" height="10" rx="5" fill="#2D6884"/><rect x="42" y="224" width="244" height="8" rx="4" fill="#1F4E68"/><rect x="42" y="247" width="196" height="8" rx="4" fill="#1F4E68"/>
+  </g>
+  <rect x="0" y="412" width="1440" height="8" rx="4" fill="url(#edge)"/>
+</svg>
