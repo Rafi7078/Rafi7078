@@ -9,6 +9,11 @@
   <a href="https://github.com/Rafi7078?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/View_Repositories-111827?style=flat-square&logo=github&logoColor=white" height="27" /></a>
 </p>
 
+<!-- Subtle looped 3D-style avatar animation: GitHub supports animated GIFs in README -->
+<p align="center">
+  <img src="./assets/rafi-3d-animated.gif" alt="Salman Jahan Rafi - animated developer workspace" width="930" />
+</p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3300&pause=1100&color=22C5DA&center=true&vCenter=true&width=770&lines=Engineering+quality+through+automation;Building+practical+AI-powered+applications;Turning+data+into+actionable+insights" alt="Engineering quality through automation, building practical AI, and analyzing data" />
 </p>
