@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3300&pause=1100&color=22C5DA&center=true&vCenter=true&width=770&lines=Engineering+quality+through+automation;Building+practical+AI-powered+applications;Turning+data+into+actionable+insights;Transforming+ideas+into+data-driven+solutions" alt="Engineering quality through automation, building practical AI, and analyzing data" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3300&pause=1100&color=22C5DA&center=true&vCenter=true&width=770&lines=Engineering+quality+through+automation;Building+practical+AI-powered+applications;Turning+data+into+actionable+insights;Transforming+ideas+into+data-driven+solutions;Creating+scalable+testable+and+impactful+software" alt="Engineering quality through automation, building practical AI, and analyzing data" />
 </p>
 
 ## About me
