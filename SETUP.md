@@ -1,58 +1,100 @@
-# Premium GitHub Profile — Setup Guide
+# GitHub Profile README — Setup Guide
 
-This package replaces the content of your **existing** GitHub profile repository:
+This package updates the existing GitHub profile repository for **Rafi7078**.
 
-https://github.com/Rafi7078/Rafi7078
+- Profile: https://github.com/Rafi7078
+- Special profile repository: https://github.com/Rafi7078/Rafi7078
+- Portfolio: https://salman-rafi-website.vercel.app/
 
-## Files to upload
+## What is included
 
-- `README.md` — GitHub profile content.
-- `assets/header.svg` — custom profile hero.
-- `assets/peoplemind.svg`, `assets/verifyrest.svg`, `assets/playwright.svg`, `assets/brain-tumor.svg` — project visuals.
+- `README.md` — redesigned profile page using the supplied midnight-navy and cyan visual system.
+- `assets/` — the supplied visual assets are preserved. The README uses the newer `hero-reference.png`, the `nav-*-v6.png` buttons, and the matching section/project SVGs. The active `about.svg` replaces a conflicting location label with your professional focus areas.
+- `SETUP.md` — this installation guide.
 
-## Fastest setup on Windows (PowerShell)
+## Update the existing profile repository
 
-1. Back up your current profile `README.md` (optional but recommended).
-2. Open PowerShell in your preferred work folder and run:
+The GitHub profile repository must be public and named exactly `Rafi7078` to display its README on `github.com/Rafi7078`.
+
+### 1. Clone your existing profile repository
+
+Open PowerShell in the folder where you keep your Git projects:
 
 ```powershell
 git clone https://github.com/Rafi7078/Rafi7078.git
 cd Rafi7078
 ```
 
-3. Extract the ZIP file. Copy the supplied `README.md` and entire `assets` folder into your cloned `Rafi7078` folder. Choose **Replace** if Windows asks to overwrite `README.md`.
-4. Review the contact details and link targets in the README.
-5. Run:
+If you already have this repository locally, open that folder instead. Do not create a second repository.
+
+### 2. Back up the current README
 
 ```powershell
-git add README.md assets/
-git commit -m "Upgrade GitHub profile portfolio"
+Copy-Item README.md README.backup.md
+```
+
+### 3. Copy the updated files
+
+Extract this package. Copy these items from the extracted folder into your cloned `Rafi7078` repository:
+
+- Replace `README.md`.
+- Replace `SETUP.md`.
+- Copy the complete `assets` folder, merging/replacing the existing assets folder.
+
+Keep the `assets` folder beside `README.md` at the repository root.
+
+### 4. Review the links
+
+The active About graphic omits a location because the supplied GitHub profile screenshot and original About graphic showed different locations. This avoids publishing a conflicting location; add one back after confirming which location you want displayed.
+
+The updated README points to:
+
+- Portfolio: `https://salman-rafi-website.vercel.app/`
+- LinkedIn: `https://www.linkedin.com/in/salmanrafi002/`
+- GitHub: `https://github.com/Rafi7078`
+- Email: `sajidbin7777@gmail.com`
+
+The VerifyREST visual currently links to your GitHub repositories page because an exact public repository URL for that project was not present in the supplied README. Replace that link with the direct repository URL if you want to feature a specific public repository.
+
+### 5. Commit and push
+
+```powershell
+git status
+git add README.md SETUP.md assets/
+git commit -m "Refresh GitHub profile to match portfolio branding"
 git push origin main
 ```
 
-6. Visit https://github.com/Rafi7078 and refresh the page.
+If your profile repository uses a different default branch, push that branch instead of `main`.
 
-If the default branch is not `main`, push the actual default branch instead.
+### 6. Verify the profile
 
-## A few intentional choices
+Open `https://github.com/Rafi7078` and refresh the page.
 
-- Uses **your existing public repositories**; it does not claim unverified live deployments.
-- Uses custom local SVG graphics so the main banner and project illustrations do **not** depend on third-party image sites.
-- Social badges, the animated line, and the optional GitHub stats use external services and need an internet connection.
-- The GitHub stats are **collapsed by default** to keep the profile clean and reduce the impact of third-party outages.
-- No phone number, home address, false awards, inflated rating, or misleading health-related performance claims are included.
-- Markdown and HTML render inside the GitHub profile README; JavaScript does not run there.
+Check that:
 
-## Optional customization
+- The new navy/cyan portrait banner appears.
+- All six navigation buttons load.
+- About, proof, selected work, skills, activity, credentials and footer graphics render.
+- Project cards open the intended repositories.
+- Portfolio, LinkedIn and email links work.
 
-- Colors are specified directly in `assets/*.svg` files. The palette is midnight navy, electric cyan, teal, and lilac.
-- Replace the title line `QA Automation / Applied AI / Data Analytics` in `assets/header.svg` if you change your career focus.
-- Update your social links and email in `README.md` when needed.
-- To feature different projects, update both the project table links and their captions.
-- Re-pin relevant projects in GitHub Profile > Customize your pins. This is separate from the README.
+## Important notes
 
-## Troubleshooting
+- This package changes the profile README and setup guide; it does not change your portfolio website or its Vercel deployment.
+- The old portfolio URL has been replaced in the README with `salman-rafi-website.vercel.app`.
+- GitHub README files support Markdown and limited HTML, not custom JavaScript. The visual assets are images, so the website's GSAP/React interactions do not run inside GitHub.
+- The typing line depends on the external `readme-typing-svg` service. If that service is temporarily unavailable, the rest of the profile still renders.
+- The contribution panel is a designed visual. Use the linked GitHub profile page to see your authentic, live contribution activity.
+- No follower counts, stars, awards, or other changing statistics have been invented.
 
-- **Images missing:** Confirm the SVGs were uploaded into the repo's exact `assets/` folder, beside README.md.
-- **Profile does not update:** Confirm the repository is public, named exactly like the username (`Rafi7078`), and README.md is in its root and on its default branch.
-- **External badges unavailable:** They are provided by shields.io or readme-typing-svg and may temporarily fail; the banner and project assets remain local.
+## Updating the GitHub profile website field
+
+The website shown in the left sidebar of your GitHub profile is separate from this README.
+
+1. Open `https://github.com/settings/profile`.
+2. Find the **Public profile** section.
+3. Set the **Website** field to `https://salman-rafi-website.vercel.app/`.
+4. Save the changes.
+
+This updates the sidebar website link without changing your other Vercel project.
