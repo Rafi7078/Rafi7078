@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img">
+<rect width="1200" height="112" rx="12" fill="#11110F"/>
+<path d="M22 20H1178M22 92H1178" stroke="#5C594F" stroke-width="1" opacity=".75"/>
+<rect x="28" y="29" width="58" height="54" rx="8" fill="#F4D943"/>
+<text x="57" y="65" text-anchor="middle" fill="#171715" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">05</text>
+<text x="112" y="67" fill="#F4F1E8" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing=".3">CERTIFICATIONS &amp; LEARNING</text>
+<text x="1168" y="63" text-anchor="end" fill="#A8A497" font-family="Courier New, monospace" font-size="13" letter-spacing="1.6">PROOF OF CURIOSITY</text>
+<rect x="112" y="82" width="84" height="3" rx="1.5" fill="#F4D943"/>
+</svg>

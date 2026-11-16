@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Salman Jahan Rafi — GitHub Profile</title>
+<desc id="desc">A dark editorial banner with bold cream and yellow typography and abstract engineering-inspired line graphics.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#11110F"/>
+    <stop offset="1" stop-color="#1C1B17"/>
+  </linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0H0V34" fill="none" stroke="#D8D2BE" stroke-opacity=".09" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFE978"/>
+    <stop offset="1" stop-color="#E9C72E"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<path d="M700 0H1200V360H850L700 0Z" fill="#F4D943" opacity=".055"/>
+<rect x="842" y="48" width="250" height="250" rx="16" fill="url(#gold)"/>
+<path d="M760 310L1040 30M810 340L1090 60M860 360L1140 80" stroke="#F4D943" stroke-width="2" opacity=".48"/>
+<circle cx="970" cy="170" r="116" fill="none" stroke="#11110F" stroke-width="2" opacity=".6"/>
+<circle cx="970" cy="170" r="82" fill="none" stroke="#11110F" stroke-width="2" stroke-dasharray="7 9" opacity=".62"/>
+<circle cx="970" cy="170" r="46" fill="none" stroke="#11110F" stroke-width="2" opacity=".55"/>
+<path d="M854 170H1086M970 54V286" stroke="#11110F" stroke-width="1.5" opacity=".35"/>
+<circle cx="970" cy="54" r="5" fill="#11110F"/>
+<circle cx="1086" cy="170" r="5" fill="#11110F"/>
+<circle cx="970" cy="286" r="5" fill="#11110F"/>
+<circle cx="854" cy="170" r="5" fill="#11110F"/>
+<text x="62" y="54" fill="#B8B4A8" font-family="Courier New, monospace" font-size="14" letter-spacing="2.5">SALMAN JAHAN RAFI  /  GITHUB PROFILE</text>
+<line x1="62" y1="72" x2="730" y2="72" stroke="#6C685B" stroke-width="1"/>
+<text x="58" y="178" fill="#F5F2E9" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">SALMAN</text>
+<text x="58" y="270" fill="#F4D943" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">RAFI.</text>
+<text x="66" y="316" fill="#E8E4D9" font-family="Courier New, monospace" font-size="16" letter-spacing="2">QA AUTOMATION  ·  APPLIED AI  ·  DATA ANALYTICS</text>
+<text x="1138" y="52" text-anchor="end" fill="#171715" font-family="Courier New, monospace" font-size="12" letter-spacing="1.7">BUILD / TEST / IMPROVE</text>
+<text x="1138" y="328" text-anchor="end" fill="#171715" font-family="Courier New, monospace" font-size="12" letter-spacing="1.7">01 — 07  /  PROFILE INDEX</text>
+<rect x="62" y="88" width="8" height="8" fill="#F4D943"/>
+</svg>

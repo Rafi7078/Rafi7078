@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title">
+<title id="title">Let's connect and build something meaningful</title>
+<rect width="1200" height="190" rx="18" fill="#F4D943"/>
+<path d="M790 190L980 0M860 190L1050 0M930 190L1120 0M1000 190L1190 0" stroke="#171715" stroke-width="2" opacity=".16"/>
+<circle cx="1035" cy="90" r="56" fill="none" stroke="#171715" stroke-width="2" opacity=".7"/>
+<circle cx="1035" cy="90" r="30" fill="none" stroke="#171715" stroke-width="2" stroke-dasharray="4 6" opacity=".7"/>
+<path d="M1035 34V146M979 90H1091" stroke="#171715" stroke-width="1.5" opacity=".45"/>
+<path d="M1090 48l26 0-10 10M1090 132l26 0-10-10" fill="none" stroke="#171715" stroke-width="2"/>
+<text x="54" y="48" fill="#171715" font-family="Courier New, monospace" font-size="13" letter-spacing="2">07 / OPEN TO CONVERSATION</text>
+<text x="52" y="112" fill="#171715" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.5">LET'S BUILD SOMETHING</text>
+<text x="54" y="157" fill="#171715" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">THAT MATTERS.</text>
+<text x="1145" y="168" text-anchor="end" fill="#171715" font-family="Courier New, monospace" font-size="12" letter-spacing="1.4">SALMAN JAHAN RAFI</text>
+</svg>
